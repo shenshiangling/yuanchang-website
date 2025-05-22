@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', 'Microsoft JhengHei', Arial, sans-serif;
+    background: #f6f8fa;
+    color: #222;
+}
+header {
+    background: #164191;
+    color: #fff;
+    padding: 0;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background: #164191;
+    padding: 16px 0;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.2s;
+}
+nav a:hover, nav a.active {
+    color: #ffe066;
+}
+.container {
+    max-width: 1000px;
+    margin: 40px auto 0;
+    padding: 0 20px 40px;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 4px 24px #0001;
+}
+.hero {
+    background: linear-gradient(120deg, #164191 80%, #0093dd 100%);
+    color: #fff;
+    text-align: center;
+    padding: 56px 16px 36px 16px;
+    border-radius: 0 0 30px 30px;
+}
+.hero h1 {
+    margin: 0 0 16px 0;
+    font-size: 2.6em;
+    letter-spacing: 2px;
+}
+.hero p {
+    font-size: 1.2em;
+    opacity: 0.85;
+}
+.logo-wrap {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    margin: 36px 0 18px 0;
+    flex-wrap: wrap;
+}
+.logo-wrap img {
+    max-height: 120px;
+    width: auto;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 2px 10px #16419118;
+    padding: 12px;
+}
+.pdf-box {
+    background: #f6f8fa;
+    border: 1px solid #16419144;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: 30px auto 0;
+    padding: 20px;
+    text-align: center;
+}
+.pdf-box iframe {
+    width: 100%;
+    min-height: 380px;
+    border: none;
+}
+.pdf-download {
+    display: inline-block;
+    margin: 10px 0 0 0;
+    padding: 8px 22px;
+    border-radius: 6px;
+    background: #164191;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background .2s;
+}
+.pdf-download:hover {
+    background: #2257c1;
+}
+.cards {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 0;
+}
+.card {
+    background: #f9fbfd;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px #16419118;
+    padding: 30px 18px;
+    flex: 1 1 260px;
+    max-width: 300px;
+    min-width: 220px;
+    text-align: center;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+.card:hover {
+    box-shadow: 0 8px 28px #16419133;
+    transform: translateY(-4px) scale(1.02);
+}
+.card h3 {
+    margin: 0 0 12px 0;
+    color: #
